@@ -1,0 +1,11 @@
+#summary cara update ke versi baru aplikasi
+
+= Cara Update =
+*PENTING*: Cadangkan dulu seluruh file PSBOnline Free yang anda gunakan sebelum diupdate, khususnya file konfigurasi dan file konten. Cadangkan pula database PSBOnline Free dengan PHPMyAdmin.
+
+  # Unduh update source-code terbaru PSBOnline Free dari http://code.emka.web.id/
+  # Ekstrak file tersebut pada direktori PSBOnline Free sebelumnya, klik OK/Continue ketika ada konfirmasi penimpaan/overwrite file.
+  # Dump file install.sql ke database baru tersebut dengan bantuan PHPMyAdmin, Navicat maupun perintah mysql -unama_user -ppassword < install.sql
+  # Ubah konfigurasi database, url aplikasi dan konfigurasi lainnya yang terdapat di file */modul/konfigurasi.php*
+  # Ubah konten aplikasi (visi, misi, sejarah dll) di folder /konten atau kembalikan dari file cadangan/backup sebelumnya.
+  # PSBOnline siap digunakan
