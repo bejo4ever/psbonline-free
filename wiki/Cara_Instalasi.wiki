@@ -2,22 +2,15 @@
 
 = Cara Instalasi =
   # Unduh source-code terbaru PSBOnline Free dari http://code.emka.web.id/
-  # Ekstrak file tersebut dengan WinRAR/WinZIP/IZArc atau unzip jika anda meng-
-gunakan Linux, pada direktori C:\xampp\htdocs\ (pengguna XAMPP) atau C:\wampp\www
-(pengguna WAMP) atau /var/www (pengguna Linux) atau /home/nama_user/public_html
+  # Ekstrak file tersebut dengan WinRAR/WinZIP/IZArc atau unzip jika anda menggunakan Linux, pada direktori C:\xampp\htdocs\ (pengguna XAMPP) atau C:\wampp\www (pengguna WAMP) atau /var/www (pengguna Linux) atau /home/nama_user/public_html
   # Buat database MySQL baru dengan nama psbonlinefree (atau sesuaikan sendiri)
-  # Dump file install.sql ke database baru tersebut dengan bantuan PHPMyAdmin,
-Navicat maupun perintah mysql -unama_user -ppassword < install.sql
-  # Ubah konfigurasi database, url aplikasi dan konfigurasi lainnya yang terdapat
-di file /modul/konfigurasi.php
+  # Dump file install.sql ke database baru tersebut dengan bantuan PHPMyAdmin, Navicat maupun perintah mysql -unama_user -ppassword < install.sql
+  # Ubah konfigurasi database, url aplikasi dan konfigurasi lainnya yang terdapat di file */modul/konfigurasi.php*
   # Ubah konten aplikasi (visi, misi, sejarah dll) di folder /konten
   # PSBOnline Siap digunakan
 
-_Silakan gunakan XAMPP Server atau GapuraLinux Server sebagai server anda_.
+_Silakan gunakan XAMPP Server atau *GapuraLinux Server* sebagai server anda_.
 
-Aplikasi ini dilisensikan dalam skema CC BY NC ND (Creative Common License
-No-Commercial No-Derrvative) Anda bebas membagikan source code ini, tapi tidak
-diperbolehkan memanfaatnya untuk tujuan komersial dan mengubah konten didalamnya
-sebagian atau keseluruhan (kecuali file konfigurasi) *)
+Aplikasi ini dilisensikan dalam skema CC BY NC ND (Creative Common License No-Commercial No-Derrvative) Anda bebas membagikan source code ini, tapi tidak diperbolehkan memanfaatnya untuk tujuan komersial dan mengubah konten didalamnya sebagian atau keseluruhan (kecuali file konfigurasi) *)
 
 _Lihat file LISENSI.txt_
