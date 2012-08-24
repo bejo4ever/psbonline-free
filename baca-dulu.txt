@@ -1,0 +1,217 @@
+// baca-dulu.txt
+
+PSBOnline Free
+v0.4 codename Sadang
+Copyright (c) 2011-2012 Luthfi Maslichul Kurniawan
+Intipadi Sejahtera,CV
+
+************************************************************************************
+PSBOnline Free INI DIBUAT KHUSUS DAN DIPERSEMBAHKAN BAGI "PEMBACA SETIA" emka.web.id
+YANG KAMI CINTAI. MAKA DARI ITU, JIKA ANDA ADALAH PENGGUNA PEMULA DAN ATAU MERASA
+KESULITAN MEMAHAMI ISI BACA-DULU.TXT INI, BAIK SEBAGIAN MAUPUN SECARA KESELURUHAN,
+MAKA KAMI SANGAT MENYARANKAN ANDA UNTUK BERKONSULTASI TERLEBIH DULU DENGAN REKAN ANDA
+YANG LEBIH BERPENGALAMAN DALAM BERKOMPUTER. ATAU DEMI KENYAMANAN ANDA, MAKA KAMI 
+SARANKAN UNTUK TIDAK MENGGUNAKAN PSBOnline Free SAMA SEKALI.
+************************************************************************************
+
+PSBOnline Free adalah sebuah aplikasi bebas pakai berkode sumber terbuka, berbasis
+web yang ditujukan untuk menangani proses pendaftaran siswa baru secara online
+untuk berbagai jenjang sekolah (dengan kustomasi lebih lanjut).
+
+
+
+-------------------------------
+YANG BARU DI VERSI 0.4
+-------------------------------
+- Perbaikan sejumlah error notice dan strict pada PHP
+- Enkripsi halaman footer dan pencantuman lisensi free
+
+
+
+-------------------------------
+FITUR & KEUNGGULAN
+-------------------------------
+- Aplikasi PHP berbasis Web
+- Menggunakan database relasional MySQL
+- Database pendaftaran yang tidak terbatas (sesuai batasan MySQL)
+- Dapat dipasang pada area intranet maupun internet dalam skema subdomain maupun
+  subfolder (http://psbonline.sesuatu.apa atau http://sesuatu.apa/psbonline)
+- Independen, tidak bergantung pada CMS apapun
+- Bebas pakai, Kode Sumber Terbuka
+- Menolak pendaftaran siswa dengan nilai < 6.00
+- Kemampuan validasi pendaftaran (memenuhi kelengkapan persyaratan)
+- Kemampuan pembatalan pendaftaran
+- Kemampuan edit biodata pendaftar
+- Tersedia versi Pro dengan source code & buku panduan instalasi/pengembangan
+
+
+
+
+----------------------------------
+KETENTUAN PENGGUNAAN
+----------------------------------
+PSBOnline Free merupakan karya dan hak cipta berada ditangan pembuat.
+
+Pihak Pembuat telah mengeluarkan segala daya dan upaya serta 
+mengujicobanya secara sungguh-sungguh agar PSBOnline Free dapat memberikan 
+hasil terbaik. Namun demikian, seperti lazimnya program komputer yang 
+lain, Anda sangat menyadari dan memahami bahwa pihak pembuat aplikasi
+memberikan PSBOnline Free dan segala file yang terkait secara apa adanya,   
+tanpa memberikan jaminan apapun bahwa program ini terbebas dari 
+segala macam risiko teknis, dan kami tidak berkewajiban mengganti 
+segala biaya yang mungkin dapat ditimbulkan oleh segala macam fungsi                  
+dari penggunaan program ini. Untuk itu, sangat disarankan mem-backup 
+data penting Anda sebelum menggunakan program ini.
+
+Selama berasal dari web http://*.emka.web.id/ dijamin bebas virus 100%. 
+
+Segala pelanggaran hak cipta dan pelanggaran hukum terkait penyalahgunaan
+lisensi aplikasi ini akan diselesaikan secara kekeluargaan dan secara hukum
+jika dipandang perlu.
+
+Dengan memanfaatkan/menggunakan PSBOnline Free berarti Anda mengerti dan 
+setuju dengan seluruh ketentuan ini.
+
+
+
+
+
+
+---------------------------------
+INSTALASI
+---------------------------------
+1. Unduh source-code terbaru PSBOnline Free dari http://code.emka.web.id/
+2. Ekstrak file tersebut dengan WinRAR/WinZIP/IZArc atau unzip jika anda meng-
+gunakan Linux, pada direktori C:\xampp\htdocs\ (pengguna XAMPP) atau C:\wampp\www
+(pengguna WAMP) atau /var/www (pengguna Linux) atau /home/nama_user/public_html
+3. Buat database MySQL baru dengan nama psbonlinefree (atau sesuaikan sendiri)
+4. Dump file install.sql ke database baru tersebut dengan bantuan PHPMyAdmin,
+Navicat maupun perintah mysql -unama_user -ppassword < install.sql
+5. Ubah konfigurasi database, url aplikasi dan konfigurasi lainnya yang terdapat
+di file /modul/konfigurasi.php
+6. Ubah konten aplikasi (visi, misi, sejarah dll) di folder /konten
+7. PSBOnline Siap digunakan
+
+
+
+
+---------------------------------
+UPDATE
+---------------------------------
+
+PENTING: Cadangkan dulu seluruh file PSBOnline Free yang anda gunakan sebelum
+diupdate, khususnya file konfigurasi dan file konten. Cadangkan pula database
+PSBOnline Free dengan PHPMyAdmin.
+
+1. Unduh update source-code terbaru PSBOnline Free dari http://code.emka.web.id/
+2. Ekstrak file tersebut pada direktori PSBOnline Free sebelumnya, klik OK/Continue
+ketika ada konfirmasi penimpaan/overwrite file.
+3. Dump file install.sql ke database baru tersebut dengan bantuan PHPMyAdmin,
+Navicat maupun perintah mysql -unama_user -ppassword < install.sql
+4. Ubah konfigurasi database, url aplikasi dan konfigurasi lainnya yang terdapat
+di file /modul/konfigurasi.php
+5. Ubah konten aplikasi (visi, misi, sejarah dll) di folder /konten atau kembalikan
+dari file cadangan/backup sebelumnya.
+6. PSBOnline siap digunakan
+
+
+
+
+---------------------------------
+LISENSI
+---------------------------------
+Aplikasi ini dilisensikan dalam skema CC BY NC ND (Creative Common License
+No-Commercial No-Derrvative) Anda bebas membagikan source code ini, tapi tidak
+diperbolehkan memanfaatnya untuk tujuan komersial dan mengubah konten didalamnya
+sebagian atau keseluruhan (kecuali file konfigurasi) *)
+
+
+*) Lihat file LISENSI.txt
+
+
+
+
+
+---------------------------------
+SEJARAH RILIS
+---------------------------------
+- v0.1 codename Bulung, rilis online Rabu Kliwon 10 Agustus 2011/10 Ramadhan 1432H
+- v0.2 codename Jekulo, rilis online Rabu Pahing 14 Maret 2012/21 Rabiul Akhir 1433H
+- v0.3 codename Pladen, rilis online Kamis Kliwon 26 April 2012/4 Jumadil Akhir 1433H
+- v0.4 codename Sadang, rilis online ??
+- v0.5 codename Terban, rilis online ??
+
+
+
+
+---------------------------------
+NEXT-RELEASE PSBOnline Free PLAN
+---------------------------------
+- Penambahan field-fied baru pada form pendaftaran sesuai perkembangan
+- Pengembangan fitur ceklist kelengkapan persyaratan pada modul Validasi Pendaftaran
+- Pengembangan fitur report kelengkapan persyaratan pada modul Validasi Pendaftaran
+- Pengembangan fitur seleksi, untuk mengakomodasi PSB dengan syarat test lisan/tertulis/
+  praktik
+
+(*) Next release dari versi Free sebenarnya adalah serangkaian aksi adopsi fitur-fitur
+PSBOnline Pro ke versi Free.
+
+
+
+
+---------------------------------
+VERSI PRO/KOMERSIAL
+---------------------------------
+Versi komersial dari aplikasi PSBOnline dengan dukungan lebih lengkap, seperti
+diferensiasi jenjang sekolah (SD, SMP, SMA, MA, SMK), pembatasan nilai mendetil,
+formulir pendaftaran dalam bentuk PDF, jurnal pendaftaran dalam bentuk online,
+jurnal pendaftaran harian dalam bentuk cetak, ekspor data siswa yang diterima
+ke dalam bentuk file excel dan SQL, berita & informasi pendaftaran yg dinamis,
+serta buku panduan instalasi dan pengembangan.
+
+Versi komersial ini dapat anda dapatkan di http://code.emka.web.id/.
+
+Skema Produk & Harga:
+1. PSBOnline Pro, source code (CD) dan buku panduan instalasi/pengembangan.
+   Harga Rp 300.000,- *)
+2. PSBOnline Customized Edition, pengembangan aplikasi PSBOnline sesuai fitur dan
+   permintaan pemesan. Harga mulai Rp 350.000,-
+3. PSBOnline Cloud, aplikasi PSBOnline siap pakai dengan domain khusus per-sekolah,
+   berbasis cloud-computing server di bawah bendera http://ppdb.web.id/. Contoh:
+   http://sma1muria.ppdb.web.id. Seluruh perawatan dan pengelolaan dilakukan oleh
+   Tim. Harga sewa: Rp 500.000,- per-Tahun per-Sekolah
+4. PSBOnline Server, aplikasi PSBOnline siap pakai pada Server build-up buatan
+   CV Intipadi Sejahtera, untuk model implementasi secara intranet. Dibekali dengan
+   Prosesor Intel Core i5, RAM 2GB, Harddisk 250GB, UPS dan OS Linux Server PPDB.
+   Harga: Rp 7.000.000,- *)
+
+*) harga belum termasuk ongkos kirim, harga dapat berubah sewaktu-waktu, lihat Web!
+
+
+
+
+-----------------------------------
+DONASI
+-----------------------------------
+Donasi dapat disampaikan via Transfer Bank ke rekening BNI Syariah cab. Semarang
+nomor rekening 023 993 0207 a.n LUTHFI MASLICHUL KURNIAWAN, atau Transfer Pulsa AS
+ke no. 0852 257 33685. Setiap donasi anda dapat menjadi wujud dukungan, terima kasih
+dan penyemangat bagi pengembangan aplikasi ini lebih lanjut.
+
+
+
+
+-----------------------------------
+KONTAK
+-----------------------------------
+Luthfi Maslichul Kurniawan, S.Pd
+Perum Griya Sekar Gading, Blok G No 4
+Kel. Kalisegoro RT 5 RW 3
+Gunungpati, Semarang 50229
+Jawa Tengah
+
+0852 257 33685
+intipadi@gmail.com
+
+
+// End of File

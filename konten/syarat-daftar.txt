@@ -1,0 +1,11 @@
+<ol>
+			<li>Foto copy Ijazah/Surat Keterangan Lulus dari Sekolah asal (Legalisir)</li>
+			<li>Pas Foto 3 x 4 (tiga lembar)</li>
+			<li>Membayar uang administrasi sebesar Rp 123.000,- dengan rincian:</li>
+			<ul>
+				<li>Sumbangan institusi (Rp 45.000,-)</li>
+				<li>Seragam batik 1 potong (Rp 25.000,-)</li>
+				<li>Seragam olahraga (Rp 48.000,-)</li>
+				<li>Atribut (Rp 5.000,-)</li>
+			</ul>
+		</ol>
