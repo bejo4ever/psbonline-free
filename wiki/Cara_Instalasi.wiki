@@ -13,11 +13,11 @@ di file /modul/konfigurasi.php
 6. Ubah konten aplikasi (visi, misi, sejarah dll) di folder /konten
 7. PSBOnline Siap digunakan
 
-*) Silakan gunakan XAMPP Server atau Ubuntu Linux Server sebagai server anda.
+_Silakan gunakan XAMPP Server atau Ubuntu Linux Server sebagai server anda_.
 
 Aplikasi ini dilisensikan dalam skema CC BY NC ND (Creative Common License
 No-Commercial No-Derrvative) Anda bebas membagikan source code ini, tapi tidak
 diperbolehkan memanfaatnya untuk tujuan komersial dan mengubah konten didalamnya
 sebagian atau keseluruhan (kecuali file konfigurasi) *)
 
-*) Lihat file LISENSI.txt
+_Lihat file LISENSI.txt_
