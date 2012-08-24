@@ -1,0 +1,23 @@
+#summary cara instalasi aplikasi
+
+= Cara Instalasi =
+1. Unduh source-code terbaru PSBOnline Free dari http://code.emka.web.id/
+2. Ekstrak file tersebut dengan WinRAR/WinZIP/IZArc atau unzip jika anda meng-
+gunakan Linux, pada direktori C:\xampp\htdocs\ (pengguna XAMPP) atau C:\wampp\www
+(pengguna WAMP) atau /var/www (pengguna Linux) atau /home/nama_user/public_html
+3. Buat database MySQL baru dengan nama psbonlinefree (atau sesuaikan sendiri)
+4. Dump file install.sql ke database baru tersebut dengan bantuan PHPMyAdmin,
+Navicat maupun perintah mysql -unama_user -ppassword < install.sql
+5. Ubah konfigurasi database, url aplikasi dan konfigurasi lainnya yang terdapat
+di file /modul/konfigurasi.php
+6. Ubah konten aplikasi (visi, misi, sejarah dll) di folder /konten
+7. PSBOnline Siap digunakan
+
+*) Silakan gunakan XAMPP Server atau Ubuntu Linux Server sebagai server anda.
+
+Aplikasi ini dilisensikan dalam skema CC BY NC ND (Creative Common License
+No-Commercial No-Derrvative) Anda bebas membagikan source code ini, tapi tidak
+diperbolehkan memanfaatnya untuk tujuan komersial dan mengubah konten didalamnya
+sebagian atau keseluruhan (kecuali file konfigurasi) *)
+
+*) Lihat file LISENSI.txt
